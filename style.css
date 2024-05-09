@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.summary-outer-container {
+    display: column;
+    height: 700px;
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+}
+
+p {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.image-container {
+    border-radius: 2rem;
+}
+
+.main-image {
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem 1rem 0 0;
+
+}
+
+
+.main-content-container {
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-container {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.plan-content-container {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+    width: 20rem;
+
+}
+
+.icon {
+    cursor: default;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+
+.btn {
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 2rem;
+
+}
+
+.button-container-1,
+.button-container-2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 2rem;
+}
+
+.btn-color-1 {
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border-style: none;
+}
+
+.btn-color-2 {
+    border-style: none;
+    background-color: hsl(225, 100%, 94%);
+
+
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+    cursor: pointer;
+}
