@@ -1,0 +1,46 @@
+@media (max-width:500px){
+
+    .body{
+        background:fixed;
+    }
+    .summary-outer-container{
+        height: 90%;
+        width: 90%;
+
+    }
+
+
+    .main-content-container {
+        width: 90%;
+    }
+
+    
+}
+
+@media (max-width:380px){
+
+    .body{
+        background:fixed;
+    }
+    .summary-outer-container{
+        height: 95%;
+        width: 95%;
+
+    }
+
+    .main-content-container {
+        width: 80%;
+        margin-left:1.5rem;
+    }
+
+    .plan-container{
+        margin-top: 50px;
+        width: 40%;
+        margin-left: 5rem;
+    }
+    
+    
+    
+   
+    
+}
